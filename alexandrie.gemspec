@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Alexandrie::VERSION
   s.authors     = ["Adrian Alexander Eriksen"]
   s.email       = ["adrian@aeriksen.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Alexandrie."
-  s.description = "TODO: Description of Alexandrie."
+  s.homepage    = "http://www.isfit.org/"
+  s.summary     = "Core system for ISFiT"
+  s.description = "Provides basic organization model with sections and gangs."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
