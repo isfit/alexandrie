@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", ">= 5.0.0.beta2", "< 5.1"
   s.add_dependency "devise", ">= 4.0.0.rc1"
+  s.add_dependency "omniauth", ">= 1.0.0"
 
   s.add_development_dependency "sqlite3"
 end
