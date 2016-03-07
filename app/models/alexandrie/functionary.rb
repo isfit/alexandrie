@@ -4,6 +4,6 @@ module Alexandrie
     # :confirmable, :lockable, :timeoutable and  :registerable, :validatable
     devise :database_authenticatable, :omniauthable,
            :recoverable, :rememberable, :trackable
-  	has_one :postition
+  	has_one :position
   end
 end
