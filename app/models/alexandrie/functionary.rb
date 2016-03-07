@@ -5,5 +5,8 @@ module Alexandrie
     devise :database_authenticatable, :omniauthable,
            :recoverable, :rememberable, :trackable
   	belongs_to :position
+    validates :title, presence: true
+    validates :email, presence: true
+    validates :position_id, presence: true
   end
 end
