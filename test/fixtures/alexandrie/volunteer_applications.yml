@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  application: MyText
+  position_first_id: 1
+  position_second_id: 1
+  position_third_id: 1
+
+two:
+  application: MyText
+  position_first_id: 1
+  position_second_id: 1
+  position_third_id: 1
