@@ -7,5 +7,8 @@ module Alexandrie
 
     has_one :volunteer_application
     accepts_nested_attributes_for :volunteer_application
+
+    validates :name,  presence: true
+    validates :phone, presence: true
   end
 end
