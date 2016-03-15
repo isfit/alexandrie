@@ -6,5 +6,6 @@ module Alexandrie
            :recoverable, :rememberable, :trackable, :validatable
 
     has_one :volunteer_application
+    accepts_nested_attributes_for :volunteer_application
   end
 end
