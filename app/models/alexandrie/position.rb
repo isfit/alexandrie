@@ -4,5 +4,9 @@ module Alexandrie
     has_many :functionaries
 
     validates :title, presence: true
+
+    def title_and_gang
+      "#{title}, <em>#{gangs.first.name}</em>".html_safe
+    end
   end
 end
