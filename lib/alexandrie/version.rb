@@ -1,3 +1,3 @@
 module Alexandrie
-  VERSION = '0.2.0.6'
+  VERSION = '0.2.0.7'
 end
